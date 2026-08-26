@@ -1,0 +1,16 @@
+/* Activa el desplazamiento suave para todo el sitio web al hacer clic en los enlaces del menú */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Estilo general para asegurar que las imágenes se adapten de forma fluida */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Pequeño toque personalizado para el cuerpo */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f8f9fa;
+}
