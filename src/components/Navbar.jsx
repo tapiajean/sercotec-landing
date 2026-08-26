@@ -12,6 +12,7 @@ function NavigationBar() {
             <Nav.Link href="#nosotros">Nosotros</Nav.Link>
             <Nav.Link href="#servicios">Servicios</Nav.Link>
             <Nav.Link href="#contacto">Contacto</Nav.Link>
+            <Nav.Link href="#testimonios">Testimonios</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

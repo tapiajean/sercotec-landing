@@ -1,23 +1,28 @@
 import NavigationBar from './components/Navbar';
+import About from './components/About'; // 1. Importamos la sección Nosotros
 import ServiceCard from './components/ServiceCard';
-import data from './data/sercotec.json'; // Importamos tu "Base de datos"
+import TestimonialCarousel from './components/TestimonialCarousel';
+import data from './data/sercotec.json'; 
+import ContactForm from './components/ContactForm'; // 1. Importamos el formulario de contacto
+import Footer from './components/Footer'; // 1. Importamos el Footer
 
 function App() {
-  // Extraemos los servicios del JSON
   const servicios = data.servicios;
+  const testimonios = data.testimonios; 
+  const empresa = data.empresa; // 2. Extraemos los datos de la empresa
 
   return (
     <div>
       <NavigationBar />
       
-      <div className="container mt-5">
-        <h1 className="text-center mb-4">Nuestros Servicios</h1>
-        
-        {/* Aquí creamos una cuadrícula (grid) de Bootstrap */}
+      {/* 3. Colocamos la sección Nosotros aquí arriba */}
+      <About informacion={empresa} /> 
+
+      <div className="container mt-5" id="servicios">
+        <h2 className="text-center mb-4">Nuestros Servicios</h2>
         <div className="row">
           {servicios.map((servicio) => (
             <div className="col-md-4 mb-4" key={servicio.id}>
-              {/* Llamamos a tu bloque de Lego y le pasamos los datos */}
               <ServiceCard 
                 titulo={servicio.titulo} 
                 descripcion={servicio.descripcion} 
@@ -27,6 +32,10 @@ function App() {
           ))}
         </div>
       </div>
+
+      <TestimonialCarousel testimonios={testimonios} /> 
+      <ContactForm />
+      <Footer />
     </div>
   )
 }

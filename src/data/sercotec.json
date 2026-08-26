@@ -2,26 +2,49 @@
   "empresa": {
     "nombre": "Centro de Negocios Santiago",
     "direccion": "Manuel Rodríguez Sur 749, Santiago (Metro Toesca)",
-    "correo": "centro.santiago@centrossercotec.cl"
+    "correo": "centro.santiago@centrossercotec.cl",
+    "descripcion": "Somos una institucion dedicada a ofrecer servicios integrales de apoyo y acompañamiento a emprendedores a las micro pequeñas y medianas empresas, con un enfoque specializadoen gestion, innovacion y fortalecimientode capacidades"
   },
   "servicios": [
     {
       "id": 1,
       "titulo": "Acompañamiento Preventivo",
       "descripcion": "Prolonga la vida útil de tu negocio y aumenta tu productividad mediante asesorías periódicas.",
-      "imagen": "https://placehold.co/400x300?text=Preventivo"
+      "imagen": "/sercotec.img/Preventivo.jpg"
     },
     {
       "id": 2,
       "titulo": "Acompañamiento Correctivo",
       "descripcion": "Resolvemos cualquier dificultad o desafío que afecte la gestión o desarrollo de tu empresa.",
-      "imagen": "https://placehold.co/400x300?text=Correctivo"
+      "imagen": "/sercotec.img/Correctivo.jpg"
     },
     {
       "id": 3,
-      "titulo": "Gestión e Innovación",
+      "titulo": "Gestión e Innovacion",
       "descripcion": "Apoyo en administración, finanzas, marketing digital y planes de mejora continua.",
-      "imagen": "https://placehold.co/400x300?text=Innovacion"
+      "imagen": "/sercotec.img/Innovacion.png"
+    }
+  ],
+  "testimonios": [
+    {
+      "id": 1,
+      "titulo": "Caso de Éxito: Emprendimiento 1",
+      "videoUrl": "https://www.youtube.com/embed/BeDBDO8Ns0M?t=1s"
+    },
+    {
+      "id": 2,
+      "titulo": "Caso de Éxito: Emprendimiento 2",
+      "videoUrl": "https://www.youtube.com/embed/lFUB0y1tJw4?start=45"
+    },
+    {
+      "id": 3,
+      "titulo": "Caso de Éxito: Emprendimiento 3",
+      "videoUrl": "https://www.youtube.com/embed/QijdVKz43rM?start=30"    
+    },
+    {
+      "id": 4,
+      "titulo": "Caso de Éxito: Emprendimiento 4",
+      "videoUrl": "https://www.youtube.com/embed/vTTXINXvC1E?t=2s/"
     }
   ]
 }
