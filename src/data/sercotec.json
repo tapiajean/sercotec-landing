@@ -1,0 +1,27 @@
+{
+  "empresa": {
+    "nombre": "Centro de Negocios Santiago",
+    "direccion": "Manuel Rodríguez Sur 749, Santiago (Metro Toesca)",
+    "correo": "centro.santiago@centrossercotec.cl"
+  },
+  "servicios": [
+    {
+      "id": 1,
+      "titulo": "Acompañamiento Preventivo",
+      "descripcion": "Prolonga la vida útil de tu negocio y aumenta tu productividad mediante asesorías periódicas.",
+      "imagen": "https://placehold.co/400x300?text=Preventivo"
+    },
+    {
+      "id": 2,
+      "titulo": "Acompañamiento Correctivo",
+      "descripcion": "Resolvemos cualquier dificultad o desafío que afecte la gestión o desarrollo de tu empresa.",
+      "imagen": "https://placehold.co/400x300?text=Correctivo"
+    },
+    {
+      "id": 3,
+      "titulo": "Gestión e Innovación",
+      "descripcion": "Apoyo en administración, finanzas, marketing digital y planes de mejora continua.",
+      "imagen": "https://placehold.co/400x300?text=Innovacion"
+    }
+  ]
+}
