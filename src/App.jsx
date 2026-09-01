@@ -6,17 +6,20 @@ import TestimonialCarousel from './components/TestimonialCarousel';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import data from './data/sercotec.json';
+import IndicadorUf from './components/IndicadorUF';
 
 function App() {
   const servicios = data.servicios;
   const testimonios = data.testimonios;
   const empresa = data.empresa;
 
+
   return (
     <div>
       <NavigationBar />
       <Hero />
       <About informacion={empresa} />
+      <IndicadorUf />
       
       <div className="container mt-5" id="servicios">
         <h2 className="text-center mb-4">Nuestros Servicios</h2>
