@@ -20,7 +20,7 @@ const IndicadorUf = () => {
   }, []);
 
   return (
-    <div style={{ padding: '20px', margin: '20px auto', maxWidth: '600px', background: '#f8f9fa', border: '1px solid #dee2e6', borderRadius: '8px', textAlign: 'center' }}>
+    <div id="indicador-uf"style={{ padding: '20px', margin: '20px auto', maxWidth: '600px', background: '#f8f9fa', border: '1px solid #dee2e6', borderRadius: '8px', textAlign: 'center' }}>
       <h3 style={{ color: '#0056b3', marginBottom: '10px' }}>Simulador de Financiamiento Sercotec</h3>
       <p style={{ color: '#555', fontSize: '14px' }}>
         En este espacio puedes consultar el valor de la UF según corresponda para financiar tus proyectos.
